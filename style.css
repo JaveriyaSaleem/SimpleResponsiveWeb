@@ -72,7 +72,7 @@ ul{
 /* MEDIA QUERIES FOR HEADER  */
 
 /* media queries for my laptop screen  */
-@media screen and (max-width:1279px) and (min-width:769px) {
+@media screen and (max-width:1920px) and (min-width:769px) {
     body{
         margin: 0;
         font-family: var(--font-poppins);
