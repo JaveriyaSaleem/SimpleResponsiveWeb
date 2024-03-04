@@ -164,7 +164,7 @@ a{
     background-color:#5267DF;
     border:hidden;
     border-radius: 140px 0px 0px 140px;
-    padding: 150px 322px;
+    padding: 150px 312px;
     text-align: right;
     position: absolute;
     right: 0;
@@ -202,11 +202,11 @@ a{
         position: relative;
     }
 #desktopimg{
-    width: 480px;
+    width: 500px;
 }
     #blankbutton{
     position: absolute;
-    top: 300px;
+    top: 350px;
     right: 0;
     z-index: -1;
 
@@ -233,27 +233,49 @@ a{
         flex-wrap: wrap;
         justify-content: left;
         align-items: center;
-        width: 50%;
+        width: 45%;
         flex-direction: column;
     }
+
+    #headingsimple{
+        font-size: 38px;
+    }
+    #simplepara{
+     font-size: 16px;
+    }
+    .buttondiv{
+        display: flex;
+        flex-wrap: wrap;
+       justify-content: left;
+       align-items: center;
+       gap: 10px;
+
+        
+    }
+    .sameforbutton{
+        border: hidden;
+        padding: 12px 20px;
+        border-radius: 8px;
+        font-size: 12px;
+        font-weight: 400;
+    
+    }
+
     /* right side  */
     .imgblankbutton{
-        display: flex;
-        flex-direction: row;
-        justify-content: right;
-        align-items: center;
         position: relative;
     }
 #desktopimg{
+    margin-top: 40px;
     width: 400px;
 }
     #blankbutton{
     position: absolute;
-    top: 300px;
+    top: 400px;
     right: 0;
     z-index: -1;
     border-radius: 140px 0px 0px 140px;
-    padding: 120px 280px;
+    padding: 100px 260px;
 
 }    
 }
@@ -267,6 +289,7 @@ a{
     ul{
         display: none;
     }
+    
      /* header ends  */
     .landingpage{
         margin-top: 100px;
