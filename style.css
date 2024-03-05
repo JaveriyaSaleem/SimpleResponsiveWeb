@@ -23,7 +23,6 @@ header{
     flex-wrap: wrap;
     text-transform: uppercase;
     width: 100%;
-    
 }
 #icondiv{
     display: flex;
